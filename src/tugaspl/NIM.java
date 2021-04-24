@@ -23,12 +23,12 @@ public class NIM {
     }
 
     public String angkatan() {
-        if (this.nim.substring(1,3).equalsIgnoreCase("18")) {
-            return "2018";
-        }else if (this.nim.substring(1,3).equalsIgnoreCase("19")) {
+        if (this.nim.substring(1,3).equalsIgnoreCase("19")) {
             return "2019";
         }else if (this.nim.substring(1,3).equalsIgnoreCase("20")) {
             return "2020";
+        }else if (this.nim.substring(1,3).equalsIgnoreCase("21")) {
+            return "2021";
         }else {
             return "TIDAK DITEMUKAN";
         }
